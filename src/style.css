@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #4cbfa6;
-  --hero-color: #f5ebf4;
-  --accent-color: #023b59;
-  --buttons-color: #482673;
+  --primary-color: rgb(169, 198, 56);
+  --hero-color: #ffffff;
+  --accent-color: rgb(234, 238, 163);
+  --buttons-color: rgb(81, 133, 61);
   --heading-font: "Playfair Display", serif;
   --text-font: "Poppins", sans-serif;
 }
