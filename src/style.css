@@ -214,18 +214,18 @@ footer {
 
 footer .contact-box {
   background: var(--hero-color);
-  padding: 30px 120px;
+  padding: 20px 120px;
 }
 
 footer .social-links {
   font-size: 50px;
   padding-top: 20px;
-  padding-left: 90px;
+  padding-left: 120px;
 }
 
 footer .social-links a {
   color: var(--buttons-color);
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 footer .social-links a:hover {
@@ -238,6 +238,8 @@ footer h2 {
 
 footer p {
   font-size: 20px;
+  margin-top: -15px;
+  color: var(--buttons-color);
 }
 
 @media (max-width: 960px) {
