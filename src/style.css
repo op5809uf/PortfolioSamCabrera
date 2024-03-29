@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgb(169, 198, 56);
-  --hero-color: #ffffff;
-  --accent-color: rgb(234, 238, 163);
+  --hero-color: rgb(234, 238, 163);
+  --accent-color: rgb(2, 2, 2);
   --buttons-color: rgb(81, 133, 61);
   --heading-font: "Big Carlson", serif;
   --text-font: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
