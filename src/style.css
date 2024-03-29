@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-family: var(--text-font);
-  color: var(--buttons-color);
+  color: var(--accent-color);
 }
 
 h3 {
@@ -98,7 +98,7 @@ nav h3 {
 }
 
 .hero {
-  background-color: var(--hero-color);
+  background-color: var(--active-color);
   text-align: center;
 }
 
