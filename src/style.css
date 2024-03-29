@@ -194,9 +194,11 @@ img {
   width: 500px;
   height: auto;
 }
+
 .pic-homepage {
   width: 250px;
 }
+
 .pic-about {
   width: 400px;
   border-radius: 6px;
@@ -227,7 +229,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: var(--primary-color);
+  color: var(--active-color);
 }
 
 footer h2 {
