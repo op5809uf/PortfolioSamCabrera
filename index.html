@@ -28,15 +28,17 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <h3 class="nav-heading d-none d-md-block">SamC Logo</h3>
-          <h3 class="nav-heading d-block d-md-none">S</h3>
+        <a class="navbar-brand" href="/index.html">
+          <div class="logo-image d-none d-md-block">
+            <img src="images/secondarylogo.png" class="img-fluid" />
+          </div>
+          <div class="favicon-image d-block d-md-none">
+            <img src="images/favicon.png" class="img-fluid" />
+          </div>
         </a>
-        <ul>
-          <li>
-            <a href="/index.html" tittle="homepage" class="active">HOME</a>
-          </li>
-          <li><a href="/about.html" tittle="about">ABOUT</a></li>
+        <ul class="mb-4">
+          <li><a href="/index.html" tittle="homepage">HOME</a></li>
+          <li><a href="/about.html" tittle="about" class="active">ABOUT</a></li>
           <li><a href="/work.html" tittle="work">WORK</a></li>
           <li><a href="/contact.html" tittle="contact">CONTACT</a></li>
         </ul>
