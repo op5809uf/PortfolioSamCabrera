@@ -169,8 +169,13 @@ section a:active {
 .bio {
   margin-left: 20px;
 }
+
+hr {
+  color: var(--hero-color);
+}
+
 .skills-list {
-  margin-left: 30px;
+  margin-left: 10px;
   margin-right: -80px;
 }
 
