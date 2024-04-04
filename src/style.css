@@ -54,6 +54,8 @@ p {
   margin-left: 50px;
 }
 
+/* navigation */
+
 nav {
   padding: 5px 0px;
   background-color: var(--hero-color);
@@ -97,6 +99,8 @@ nav h3 {
   color: var(--accent-color);
 }
 
+/* hero */
+
 .hero {
   background-color: var(--active-color);
   text-align: center;
@@ -133,6 +137,23 @@ nav h3 {
   font-size: 25px;
   margin-right: 45px;
 }
+
+/* back to top */
+
+.hero-back {
+  text-align: center;
+  padding-top: 30px;
+}
+section a:link,
+section a:visited,
+section a:hover,
+section a:active {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 28px;
+}
+
+/* about page */
 
 .about-me {
   color: var(--buttons-color);
@@ -223,6 +244,8 @@ img {
   padding: 120px 60px;
 }
 
+/* footer */
+
 footer {
   margin: 60px 0;
 }
@@ -257,6 +280,41 @@ footer p {
   color: var(--buttons-color);
 }
 
+/* wrapper for work pages */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+/* media 1 */
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -289,6 +347,8 @@ footer p {
     font-size: 30px;
   }
 }
+
+/* media 2 */
 
 @media (max-width: 466px) {
   .favicon-image {
